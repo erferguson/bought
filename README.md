@@ -28,3 +28,7 @@ e-commerce platform
     - create Products w/ rfac, functional components
     - use Grid + products.map for rendering
     - set mobile sizing
+
+- Navigation Bar
+    - fully mobile responsive
+    
