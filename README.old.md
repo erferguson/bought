@@ -14,4 +14,14 @@ e-commerce platform
     - @material-ui/core @material-ui/icons 
     - @chec/commerce.js 
     - @stripe/react-stripe-js @stripe/stripe-js 
-    - react-router-dom react-hook-form
+    - react-router-dom react-hook
+
+- file structure setup:
+    - components > Products > Product
+
+- Products.jsx
+    - imported Grid from @material-ui-core
+    - created filler products
+    - create Products w/ rfac, functional components
+    - use Grid + products.map for rendering
+    - set mobile sizing
