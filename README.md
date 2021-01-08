@@ -31,4 +31,7 @@ e-commerce platform
 
 - Navigation Bar
     - fully mobile responsive
+    - components moving through components > index.js to App.js
+
     
+
