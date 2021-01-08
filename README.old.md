@@ -1,6 +1,9 @@
 # bought
 e-commerce platform
 
+## Description:
+
+
 ## Built with:
 - [React](https://reactjs.org/)
 - [Stripe](https://stripe.com/)
