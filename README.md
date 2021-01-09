@@ -55,5 +55,16 @@ e-commerce platform
 
     - passing through in App.js, passed as Props to Products
 
+- Chart
+    - set useState in App
+    - create fetchCart, add to useEffect, console.log
+    - create handleAddToCart, async, two parameters, await, setCart(item.cart)
+    - pass handleAddToCart to Products, pass to Product, add onClilck to IconButton, set up onAddToCart to be a call-back function
+
+    - passed totalItems={cart.total_items} to Navbar via props, updated <Badge badgeContent={totalItems}> to pass in actual numbers of items in Cart
+    
+
+
+
 
 
