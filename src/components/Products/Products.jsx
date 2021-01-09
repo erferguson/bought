@@ -5,12 +5,12 @@ import Product from './Product/Product'
 
 import useStyles from './styles'
 
-const products = [
-    {id: 1, name: 'Shoes', description: 'Running shoes', price:'$45', image:'https://nb.scene7.com/is/image/NB/mbecnbw3_nb_02_i?$pdpflexf22x$&fmt=webp&wid=944&hei=944' },
-    {id: 2, name: 'Shoes', description: 'Walking shoes', price:'$35', image:'https://nb.scene7.com/is/image/NB/mroavtb_nb_02_i?$pdpflexf22x$&fmt=webp&wid=944&hei=944'},
-]
+// const products = [
+//     {id: 1, name: 'Shoes', description: 'Running shoes', price:'$45', image:'https://nb.scene7.com/is/image/NB/mbecnbw3_nb_02_i?$pdpflexf22x$&fmt=webp&wid=944&hei=944' },
+//     {id: 2, name: 'Shoes', description: 'Walking shoes', price:'$35', image:'https://nb.scene7.com/is/image/NB/mroavtb_nb_02_i?$pdpflexf22x$&fmt=webp&wid=944&hei=944'},
+// ]
 
-const Products = () => {
+const Products = ({ products }) => {
     const classes = useStyles()
 
     return(

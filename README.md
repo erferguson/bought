@@ -35,5 +35,25 @@ e-commerce platform
     - styling via styles.js in Products folder
     -
 
+- Commerce.js @ 35min
+    - creating a new instance of that specific Commerce (?) > this then becomes are store
+    - retreive public API key from Commerce.js account
+    - create .env file >> don't push to GitHub, .gitignore
+    - fetch the Products, in App
+    - in App:
+        - setup useState, useEffect
+        - set async function, const fetchProducts
+        - fetch (await) response a specific api call @ commerce instance
+        - returns a promise, use await to see what is inside of the promise, then destructor the response which is the products
+        - set data to setProducts
+
+    - useEffect hook
+        - dependency array set blank
+
+    - created products in Commerce/Bought
+        - tested via console.log, passing through!
+
+    - passing through in App.js, passed as Props to Products
+
 
 
