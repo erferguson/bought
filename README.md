@@ -62,8 +62,17 @@ e-commerce platform
     - pass handleAddToCart to Products, pass to Product, add onClilck to IconButton, set up onAddToCart to be a call-back function
 
     - passed totalItems={cart.total_items} to Navbar via props, updated <Badge badgeContent={totalItems}> to pass in actual numbers of items in Cart
-    
 
+- Cart
+    - rafce
+    - const isEmpty ? <EmptyCart  /> : <FilledCart />
+
+    - EmptyCart and FilledCart to control state based on items placed in Cart
+
+    - pass App/cart state to Cart using props
+    - Cart imported into App via Components/index.js
+
+    - 
 
 
 
