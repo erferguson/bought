@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Typography, Button, Grid } from '@material-ui/core'
-import classes from '*.module.scss';
 
 const Cart = ({ cart }) => {
     const isEmpty = !cart.line_items.length
@@ -18,6 +17,15 @@ const Cart = ({ cart }) => {
                 </Grid>
             ))}
         </Grid>
+        <div className={classes.cardDetails}>
+                <Typography variant='h4'>
+                    Subtotal: {cart.subtotal.formatted_with_symbol}
+                </Typography>
+                <div>
+                    <Button className={classes.emptyButton} size='large' type='button' variant='contained' color='secondary'>Empty Cart</Button>
+                    <Button className={classes.checkout} size='large' type='button' variant='contained' color='primary'>Checkout</Button>
+                </div>
+        </div>
         </>
     }
 
