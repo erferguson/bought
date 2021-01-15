@@ -90,7 +90,16 @@ e-commerce platform
     - imported useLocation hook via react-router-dom >>> set up logic: 
     location.pathname === '/' && ()
 
-    - 
+- Update Quantity of Specific product
+    - const handleUpdateCartQty, deconstruct {cart}, async function, await commerece.>
+    - const handleRemoveFromCart
+    - const handleEmptyCart
+    - >> passed to Cart via props
+    - added onClick handler to EmptyCart, passed in handleEmptyCart
+    - CartItem.js
+        - onClick for Quantity decrease, increase and Remove
+        - passed down via Props from App through Cart, prop drilling concern
+        - 
 
 
 
