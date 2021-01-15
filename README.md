@@ -82,7 +82,15 @@ e-commerce platform
     - added CartContent w/ name & price, created buttons to add/decrease specific item
 
 - ReactRouter
- - 
+ - setup for products and cart
+ 
+ - Navbar
+    - IconButton, added component={Link} to='/cart', links cart icon to cart
+    - Toolbar, added component={Link} to='/', links products via bought logo?
+    - imported useLocation hook via react-router-dom >>> set up logic: 
+    location.pathname === '/' && ()
+
+    - 
 
 
 
