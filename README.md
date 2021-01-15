@@ -72,6 +72,14 @@ e-commerce platform
     - pass App/cart state to Cart using props
     - Cart imported into App via Components/index.js
 
+    - () not {}
+
+- CartItem
+    - CI will only be used inside of Cart
+    - rafce > import from materialUI > created+imported styles.js
+    - ** in Cart, import/create CartItem (inside of FilledCart), pass item
+    back to CartItem.jsx
+    - added CartContent w/ name & price, created buttons to add/decrease specific item
     - 
 
 
