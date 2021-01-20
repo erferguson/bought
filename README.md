@@ -111,7 +111,18 @@ e-commerce platform
     setup Stepper process, used map() on steps
     - set styles.js, copied
     - linked export/import for Checkout through index.js to App.js
-    - 
+    
+    - Checkout >
+    const Form, two components
+    - <Confirmation />
+    
+    - created AddressForm and PaymentForm + structure for Confirmation to render
+    - tested, render
+
+    - React-hook-form > used because there are less total re-renders than using Formik or Redux Form
+    - CustomTextField to control text ?
+    
+
 
 
 
