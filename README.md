@@ -106,6 +106,10 @@ e-commerce platform
     - Created CheckoutForm folder, w/ Checkout/Checkout.jsx
     - Checkout.jsx >
     imported materialUI pieces
+
+    - Checkout >
+    setup Stepper process, used map() on steps
+    - set styles.js, copied
     - 
 
 
