@@ -110,6 +110,7 @@ e-commerce platform
     - Checkout >
     setup Stepper process, used map() on steps
     - set styles.js, copied
+    - linked export/import for Checkout through index.js to App.js
     - 
 
 
