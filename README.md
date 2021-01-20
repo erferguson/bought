@@ -121,6 +121,8 @@ e-commerce platform
 
     - React-hook-form > used because there are less total re-renders than using Formik or Redux Form
     - CustomTextField to control text ?
+
+    - set f.name, l.name, address, email, city, p.code in AddressForm
     
 
 
