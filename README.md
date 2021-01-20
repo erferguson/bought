@@ -125,6 +125,14 @@ e-commerce platform
     - set f.name, l.name, address, email, city, p.code in AddressForm
     - created state fields for AddressForm
 
+    - imported commerce into AddressForm, set api
+    - Checkout >
+    useEffect to call commerce.checkout.generateToken()
+    - Checkout >
+    added checkoutToken && <Form /> so only renders if both present ??
+
+    
+
 
 
 
