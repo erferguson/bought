@@ -99,7 +99,14 @@ e-commerce platform
     - CartItem.js
         - onClick for Quantity decrease, increase and Remove
         - passed down via Props from App through Cart, prop drilling concern
-        - 
+
+## Stripe
+    - Cart > set Link on Checkout btn to /checkout
+    - App > set Route for /checkout
+    - Created CheckoutForm folder, w/ Checkout/Checkout.jsx
+    - Checkout.jsx >
+    imported materialUI pieces
+    - 
 
 
 
