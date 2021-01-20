@@ -123,7 +123,7 @@ e-commerce platform
     - CustomTextField to control text ?
 
     - set f.name, l.name, address, email, city, p.code in AddressForm
-    
+    - created state fields for AddressForm
 
 
 
