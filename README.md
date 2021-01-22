@@ -145,6 +145,17 @@ e-commerce platform
 
     - const options
 
+    - inline styling on div only because these are the only two styles and does not warrant style sheet
+
+    - Checkout >
+    const nextStep - updates prevActiveState by + 1
+
+    - const backStep - updates prevActiveState by - 1
+
+    - 2:40
+
+    - 
+
 
 
 
