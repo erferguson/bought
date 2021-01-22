@@ -139,7 +139,11 @@ e-commerce platform
 
     - const fetchSubdivisions and set up standalone useEffect >> updates when shippingCounty is changed
 
-    - 
+    - const fetchShippingOptions and set stand alone useEffect >> updates when shippingCountry and shippingSubdivision are changed
+
+    - shippingOptions is an array by default, 2:31
+
+    - const options
 
 
 
