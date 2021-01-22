@@ -136,7 +136,11 @@ e-commerce platform
     then updated Grid Item Shipping County re: value and onChange
 
     - const countries, 2:17
-    
+
+    - const fetchSubdivisions and set up standalone useEffect >> updates when shippingCounty is changed
+
+    - 
+
 
 
 
