@@ -131,6 +131,11 @@ e-commerce platform
     - Checkout >
     added checkoutToken && <Form /> so only renders if both present ??
 
+    - fetchShippingCountries >
+    setShippingCountry(Object.keys(countries)[0]) ?
+    then updated Grid Item Shipping County re: value and onChange
+
+    - const countries, 2:17
     
 
 
