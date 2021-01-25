@@ -154,7 +154,18 @@ e-commerce platform
 
     - 2:40
 
-    - 
+## Payment / Stripe
+
+    - Paymentform
+        - created and imported Review component
+
+        - from Checkout >
+        use const generateToken to gain access to, pass to PaymentForm
+
+        - Review.jsx
+        set and composed to format products and total
+
+        
 
 
 
