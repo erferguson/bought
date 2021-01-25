@@ -165,8 +165,24 @@ e-commerce platform
         - Review.jsx
         set and composed to format products and total
 
-        
+        - Payment Method using Stripe
+            - stripePromise
+            - use loadStripe
+            
+            - setup Stripe account, retreived Publishable key for stripePromise in Paymentform.jsx
 
+            - set Stripe/Public key in .env file
+
+            - Paymentform >
+            set const stripePromise
+
+            - Paymentform >
+            created handleSubmit, passed through event, elements, stripe
+
+            - Paymentform >
+            const orderData, pulls in users order in from from shippingData
+
+            - 3:05
 
 
 
