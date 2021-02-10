@@ -16,8 +16,11 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
     const [shippingData, setShippingData] = useState({})
     const classes = useStyles()
 
+    const nextStep = () => setActiveStep((prevActiveStep) => prevActiveStep + 1)
+    const backStep = () => setActiveStep((prevActiveStep) => prevActiveStep - 1)
+
     useEffect(() => {
-        const generateToken = async () => {
+          const generateToken = async () => {
             try {
                 const token = await commerce.checkout.generateToken(cart.id, {type: 'cart'})
                 
@@ -27,12 +30,8 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
                 console.log(error)
             }
         }
-        generateToken()
+            generateToken()  
     }, [cart])
-
-    const nextStep = () => setActiveStep((prevActiveStep) => prevActiveStep + 1)
-    const backStep = () => setActiveStep((prevActiveStep) => prevActiveStep - 1)
-
 
     const next = (data) => {
         setShippingData(data)
@@ -44,7 +43,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
         <>
             <div>
                 <Typography variant='h5'>Thank you for your purchase, {order.customer.firstname}</Typography>
-                <Divider className={classes.divider} ></Divider>
+                <Divider className={classes.divider} />
                 <Typography variant='subtitle2'>Order ref: {order.customer_reference}</Typography>
             </div>
             <br />

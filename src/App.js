@@ -20,7 +20,7 @@ const App = () => {
     const fetchCart = async () => {
         setCart( await commerce.cart.retrieve())
     }
-    console.log(setCart)
+    // console.log(setCart)
 
     const handleAddToCart = async (productId, quantity) => {
         const {cart} = await commerce.cart.add(productId, quantity)
