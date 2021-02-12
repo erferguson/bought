@@ -55,6 +55,7 @@ const App = () => {
     const handleCaptureCheckout = async (checkoutTokenId, newOrder) => {
         try {
             const incomingOrder = await commerce.checkout.capture(checkoutTokenId, newOrder)
+            console.log("from handleCaptureCheckout", incomingOrder)
 
             setOrder(incomingOrder)
             refreshCart()
@@ -68,7 +69,11 @@ const App = () => {
         fetchCart()
     }, [])
 
-    // console.log(cart)
+    console.log("from handleCaptureCheckout", handleCaptureCheckout)
+
+    console.log("order from App", order)
+    console.log("")
+
 
     return ( 
         <Router>
